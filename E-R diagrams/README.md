@@ -50,4 +50,4 @@ It’s a good idea to have a unique way of identifying this record.
 <br> or if the other person requests a friendship, we could add a table constraint or an application feature, to prevent this from happening.		
 			
 
-
+![image alt](https://github.com/hinaazubairr/SQL-Projects/blob/main/E-R%20diagrams/2.PNG?raw=true)
