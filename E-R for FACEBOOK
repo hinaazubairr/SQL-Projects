@@ -22,15 +22,10 @@ STEP BY STEP DESIGN OF FACEBOOK
 	I use LucidChart to draw all of my database diagrams.
 	Lucidchart | Diagramming Powered By Intelligence
 	
-	
-	
 	In order to create a profile, I can assume that a user needs to enter some information.
 	
-	
 	Lets create our first table for storing user information.  Call it 'user_profile'
-	
-	
-	
+		
 	Primary key: It’s a good idea to have a unique way of identifying this record.
 	
 	
