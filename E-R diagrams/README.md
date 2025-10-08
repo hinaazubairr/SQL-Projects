@@ -30,4 +30,24 @@ Call it <b> 'user_profile'</b>
 <b> Primary key: </b> 
 It’s a good idea to have a unique way of identifying this record.
 
+![image alt](https://github.com/hinaazubairr/SQL-Projects/blob/main/E-R%20diagrams/1.PNG?raw=true)
+
+
+<b> 2. Add other profiles as friends		</b>
+<br>			
+	we can assume that the functionality to search for profiles and find profiles will exist on the application, and we just need to allow the friends to be stored in the database.		
+<br>	Friendship= is a relationship between two profiles.		
+<br> There's a concept called a <b> SELF-JOIN </b> , which allows you to join a record to another record of the same table.		
+<br> This is useful for hierarchical relationships, such as employees and managers, where managers are also employees or product categories and subcategories.		
+<br> However, using a self-join relationship will only allow a single friend.	
+		we want users to be able to have many friends.	
+<br> and this is actually a <b> MANY TO MANY RELATIONSHIP </b>. To accomplish this, we add a joining table to our database.		
+<br> we can add the table here, and call it by the relationship b/w the two profiles.		
+<br> we'call it friendship. If we have other relationship types in the future, we can rename the table, but for now its friendship.		
+<br> Now we add 2 columns: one for each side of the frienship. We'll call the columns : profile_request and profile_accept, as we can assume that one person will request friendship of another.		
+			
+<br> if the user declines the request, we don’t add the record to the table.		
+<br> or if the other person requests a friendship, we could add a table constraint or an application feature, to prevent this from happening.		
+			
+
 
