@@ -124,4 +124,4 @@ It’s a good idea to have a unique way of identifying this record.
 	the comment_text column in the comment table  may be an NVARCHAR column with 1000 characters.		
 			
 			
-
+![image alt](https://github.com/hinaazubairr/SQL-Projects/blob/main/E-R%20diagrams/5.PNG?raw=true)
