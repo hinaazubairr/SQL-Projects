@@ -66,5 +66,8 @@ It’s a good idea to have a unique way of identifying this record.
 	We can also add a media field, which  can contain a photo or a video. This  could be a text value that refers to the  URL on the server of the video or photo.  	
 	but to keep it simple,  we can assume that the file will be stored on  the server and this would be a reference to it.	
 	We can also store the date and  time that the post was created,  so it can be shown in the  application or analysed in the data.	
-		
 
+
+
+
+![image alt](https://github.com/hinaazubairr/SQL-Projects/blob/main/E-R%20diagrams/3.PNG?raw=true)
