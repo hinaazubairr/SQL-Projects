@@ -71,3 +71,30 @@ It’s a good idea to have a unique way of identifying this record.
 
 
 ![image alt](https://github.com/hinaazubairr/SQL-Projects/blob/main/E-R%20diagrams/3.PNG?raw=true)
+
+
+<br>
+<b>	4. See posts that friends have added				</b>
+<br>	The next feature is the ability  to see posts from others.				
+	We can assume this is a news  feed or timeline feature,  where you can see posts that others have made.				
+	This is something that is likely  built into the application,  				
+	where it queries the database to  find posts and show them on screen.  				
+	We don't need to make database changes for  this, so let's move to the next feature.				
+					
+					
+					
+<br>
+<b>5. Like and add comments to posts others have added.				</b>
+<br>	The last feature is the ability  to like or comment on other posts.				
+	What is a like? It's an indication that you  like a post that someone else has put up.				
+	For likes, we need to store a few  things. We store the person who liked it,  				
+	and the post that was liked. A user can do  this on many posts, but only once per post.				
+	So, in our database design, we have a  new table to store this information.  				
+<br>	We want to store the post ID that was liked,  the user_profile ID that liked the post.				
+	This is a separate table so we can  store multiple likes for a post. If  				
+	we just added a user_profile_liked_id  to the user_post table, we could only  				
+	store one ID in that column. In this new  table, we can store as many as we want.				
+	We can also store a date and time of the  like, so we can see when it was liked.				
+					
+					
+
