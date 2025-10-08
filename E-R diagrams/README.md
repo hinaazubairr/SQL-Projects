@@ -98,3 +98,4 @@ It’s a good idea to have a unique way of identifying this record.
 					
 					
 
+![image alt](https://github.com/hinaazubairr/SQL-Projects/blob/main/E-R%20diagrams/4.PNG?raw=true)
