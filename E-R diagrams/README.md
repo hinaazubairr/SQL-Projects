@@ -6,6 +6,28 @@ In this section, I would design a database for a social media site like Facebook
 		connect with other profiles by adding them as our friends,
 		share content such as text posts, photos and videos.
 		
-	I'll not develop the website here. I am just designing the database.	
+I'll not develop the website here. I am just designing the database.	
+
+	
+<b> Basic Features of Facebook: which I am going to cover in this section </b>
+	1. sign up and create a profile.
+	2. Add other profiles as friends
+	3. Add posts that contain text, photos or videos.
+	4. See posts that friends have added
+	5. Like and add comments to posts others have added.
+	
+I am going to create a database design that could implement these features.
+	
+<b> 1. sign up and create a profile. </b>
+	
+I use LucidChart to draw all of my database diagrams.
+Lucidchart | Diagramming Powered By Intelligence
+	
+In order to create a profile, I can assume that a user needs to enter some information.
+Lets create our first table for storing user information.  
+Call it <b> 'user_profile'</b>
+
+<b> Primary key: </b> 
+It’s a good idea to have a unique way of identifying this record.
 
 
