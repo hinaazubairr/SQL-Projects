@@ -99,3 +99,29 @@ It’s a good idea to have a unique way of identifying this record.
 					
 
 ![image alt](https://github.com/hinaazubairr/SQL-Projects/blob/main/E-R%20diagrams/4.PNG?raw=true)
+
+<br>
+<b> What about comments?		</b>
+	A comment is a text comment that  someone makes on another post.  		
+	You can do this many times on  the same post, or on many posts.		
+	We would create a new table for  this. We'll call it post_comment.  		
+	We want to store the post ID that is being  commented on, the user profile ID who makes  		
+	the comment, the comment_text itself, and  the date and time the comment was made.		
+			
+			
+			
+			
+
+<br>
+<b>	Final design		</b>
+	Here's the final design of our database,  		
+	taking into account the features  we mentioned earlier in the video.		
+	It allows for profiles to be created for  users, users to be friends with others,  		
+	users to add posts, like and comment on posts.		
+	What about data types? The data types for  these columns will depend on your database.  		
+	Generally, there are some recommended  data types for each attribute,  		
+	situation, and the amount of  data you're storing. For example,  		
+	the comment_text column in the comment table  may be an NVARCHAR column with 1000 characters.		
+			
+			
+
