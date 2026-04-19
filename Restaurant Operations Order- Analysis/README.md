@@ -78,7 +78,9 @@ The dataset consists of two tables:
   
 </p>
 <h3>1. menu_items table: </h3>
+<p> Explore the items table: To better understand this table we can find the full items and rows in the table, find the total number of items in the table, the least and most expensive items, and the item prices within each category.
 
+ </p>
 <table border ="0">
   <tr> 
     <th> Column	</th> 
@@ -217,6 +219,9 @@ The dataset consists of two tables:
 <b> 🚀 How to Use</b> 
 
     - Import the dataset into PostgreSQL
+	- Ensure the tables are named:
+			○ menu_items
+			○ order_details
     - Run the SQL queries provided in the /queries folder
     - Explore results and modify queries for deeper insights
 
@@ -229,11 +234,11 @@ The dataset consists of two tables:
     - Optimize menu pricing strategies
 
 
-<p> <b>👩‍💻 About Me </b>
+<p> <b>👩‍💻 Author </b>
 
 Hina Zubair
 <p> Aspiring Data Analyst
-	- SQL | Data Analysis | Visualization
+	- SQL | Data Analysis | Visualization | Business Intelligence | PowerBI | Tableau | Python | R
 	- Passionate about turning data into insights
 
 📌 Links:
