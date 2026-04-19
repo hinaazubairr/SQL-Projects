@@ -1,15 +1,4 @@
-<p> <b>👩‍💻 Author </b>
 
-Hina Zubair
-<p> Aspiring Data Analyst
-	- SQL | Data Analysis | Visualization | Business Intelligence | PowerBI | Tableau | Python | R
-	- Passionate about turning data into insights
-
-📌 Links:
-<p>LinkedIn: https://www.linkedin.com/in/hinaazubairrms/</p>
-<p>GitHub: https://github.com/hinaazubairr</p>
-
-	
 --1st objective--Explore menu_items table
 --View the menu_items table 
 SELECT * FROM menu_items;
