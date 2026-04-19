@@ -4,6 +4,7 @@
 
 This project explores and analyzes order data from a fictitious restaurant serving international cuisine. 
 As a Data Analyst, the goal is to uncover insights into menu performance, customer preferences, and overall business trends.
+The analysis focuses on understanding what sells, what doesn’t, and who the customers are—helping optimize menu offerings and improve revenue.
 
 Using SQL in PostgreSQL, this analysis focuses on identifying:
 
@@ -25,6 +26,17 @@ Using SQL in PostgreSQL, this analysis focuses on identifying:
     - Discover high-value customers and their behavior
 
 <p>
+
+
+<b> 🎯 Business Problem</b> 
+
+<p> The restaurant management wanted answers to key questions:
+
+	- Which menu items are performing well?
+	- Which dishes should potentially be removed?
+	- What cuisines are most popular among customers?
+	- Who are the top customers and what do they prefer?
+	- How does pricing impact order volume?
 
   
 </p>
@@ -215,3 +227,15 @@ The dataset consists of two tables:
     - Include time-based trend analysis
     - Perform customer segmentation
     - Optimize menu pricing strategies
+
+
+<p> <b>👩‍💻 About Me </b>
+
+Hina Zubair
+<p> Aspiring Data Analyst
+	- SQL | Data Analysis | Visualization
+	- Passionate about turning data into insights
+
+📌 Links:
+<p>LinkedIn: https://www.linkedin.com/in/hinaazubairrms/</p>
+<p>GitHub: https://github.com/hinaazubairr</p>
