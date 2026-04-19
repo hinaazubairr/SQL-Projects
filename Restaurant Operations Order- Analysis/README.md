@@ -91,59 +91,127 @@ The dataset consists of two tables:
   
   <tr> 
     <td> price</td>
-    <td> Price of the dish </td>
+    <td> Price of the item </td>
   </tr>
   
+</table>  
+
+
+<h3>2. orders table: </h3>
+
+<table border ="0">
+  <tr> 
+    <th> Column	</th> 
+    <th> Description </th> 
+  </tr>
+
+   <tr> 
+    <td> order_id</td>
+    <td> Unique order ID </td>
+  </tr>
+  
+   <tr> 
+    <td> order_date</td>
+    <td> Date of the order </td>
+  </tr>
+  
+   <tr> 
+    <td> customer_id </td>
+    <td> Unique customer ID </td>
+  </tr>
+</table> 
+
+	
+<h3>3. order_details table: </h3>
+
+<table border ="0">
+  <tr> 
+    <th> Column	</th> 
+    <th> Description </th> 
+  </tr>
+
+   <tr> 
+    <td> order_details_id </td>
+    <td> Unique ID for each order line </td>
+  </tr>
+  
+   <tr> 
+    <td> order_id </td>
+    <td> Linked order ID </td>
+  </tr>
+  
+   <tr> 
+    <td> item_id </td>
+    <td> Ordered menu item </td>
+  </tr>
+</table> 	
+	
+
 
 
 
 
     
-</table>  
-item_name	Name of the dish
-category	Cuisine type (e.g., Italian, Asian, etc.)
-price	Price of the item
-2. orders
-Column	Description
-order_id	Unique order ID
-order_date	Date of the order
-customer_id	Unique customer ID
-3. order_details
-Column	Description
-order_details_id	Unique ID for each order line
-order_id	Linked order ID
-item_id	Ordered menu item
-🔍 Key Analysis & Queries
-📊 1. Menu Exploration
-Total number of items on the menu
-Price range (min, max, average)
-Distribution across cuisines
-🍝 2. Item Popularity
-Most ordered items
-Least ordered items
-Items generating highest revenue
-🌍 3. Cuisine Performance
-Most popular cuisine types
-Revenue by cuisine category
-👥 4. Customer Behavior
-Top customers by total spending
-Most frequent customers
-Average order value
-💰 5. Sales Insights
-Total revenue generated
-Daily/Monthly order trends
-High-performing days
-📈 Example Insights
-Certain cuisines (e.g., Italian or Asian) may dominate sales
-A small number of items often generate a large portion of revenue
-High-value customers contribute significantly to total sales
-Some menu items may be underperforming and candidates for removal
-🚀 How to Use
-Import the dataset into PostgreSQL
-Run the SQL queries provided in the /queries folder
-Explore results and modify queries for deeper insights
-📌 Future Improvements
-Add data visualization (Tableau / Power BI)
-Include time-based trend analysis
-Perform customer segmentation
-Optimize menu pricing strategies
+	
+<p>
+
+    
+<h3> 🔍 Key Analysis & Queries </h3>
+</p>
+
+
+
+
+<b> 📊 1. Menu Exploration </b>
+
+    - Total number of items on the menu
+    - Price range (min, max, average)
+    - Distribution across cuisines
+
+    
+<b> 🍝 2. Item Popularity </b> 
+
+    - Most ordered items
+    - Least ordered items
+    - Items generating highest revenue
+
+    
+<b> 🌍 3. Cuisine Performance </b> 
+
+    - Most popular cuisine types
+    - Revenue by cuisine category
+
+
+<b> 👥 4. Customer Behavior </b>
+
+    - Top customers by total spending
+    - Most frequent customers
+    - Average order value
+
+<b> 💰 5. Sales Insights </b> 
+
+    - Total revenue generated
+    - Daily/Monthly order trends
+    - High-performing days
+
+<b> 📈 Example Insights </b> 
+
+    - Certain cuisines (e.g., Italian or Asian) may dominate sales
+    - A small number of items often generate a large portion of revenue
+    - High-value customers contribute significantly to total sales
+    - Some menu items may be underperforming and candidates for removal
+
+
+<b> 🚀 How to Use</b> 
+
+    - Import the dataset into PostgreSQL
+    - Run the SQL queries provided in the /queries folder
+    - Explore results and modify queries for deeper insights
+
+
+<b> 📌 Future Improvements</b>
+
+    - Add data visualization (Tableau / Power BI)
+    - Include time-based trend analysis
+    - Perform customer segmentation
+    - Optimize menu pricing strategies
